@@ -12,7 +12,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 # Install pip requirements
-COPY alx_travel_app/requirement.txt .
+COPY requirement.txt .
 RUN python -m pip install -r requirement.txt
 
 WORKDIR /app
